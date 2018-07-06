@@ -80,7 +80,6 @@ nav ul {
   display: flex;
   justify-content: space-between;
   margin: 3em 0 0 0;
-
 }
 
 .product {
@@ -100,13 +99,39 @@ nav ul {
   max-width: 8em;
 }
 
-
-
 .description {
   display: block;
   background-color: black;
   color: white;
   text-align: center;
   padding: 0.5em;
+}
 
+.business-info {
+  display: flex;
+  justify-content: space-between;
+  margin: 3em 0 0 0;
+}
+
+.info {
+  width: 35%;
+}
+
+.title {
+  background-color: black;
+  width: 100%;
+  color: white;
+  display: flex;
+  padding: 1em 1em;
+}
+
+footer {
+  margin-top: 4em;
+  padding: 5em 0;
+  background-color: black;
+  color: white;
+}
+
+p {
+  position: relative;
 }
