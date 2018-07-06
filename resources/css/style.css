@@ -76,7 +76,7 @@ nav ul {
   display: none;
 }
 
-.products {
+.products, .business-info {
   display: flex;
   justify-content: space-between;
   margin: 3em 0 0 0;
@@ -87,10 +87,6 @@ nav ul {
   width: 30%;
 }
 
-.product-image img {
-  max-width: 8em;
-}
-
 .product-image {
   border: 4px solid black;
   padding: 2em 0;
@@ -99,6 +95,12 @@ nav ul {
   justify-content: center;
   align-items: center;
 }
+
+.product-image img {
+  max-width: 8em;
+}
+
+
 
 .description {
   display: block;
