@@ -135,3 +135,25 @@ footer {
 p {
   position: relative;
 }
+
+/*media quieries section*/
+@media only screen and (max-width:1024px) {
+  body {
+    font-size: 16px;
+  }
+  nav ul {
+    display: none;
+  }
+  .mobile-nav {
+    display: block;
+    text-align: center;
+  }
+
+  .product {
+    width: 47%;
+  }
+
+  .glasses {
+    display: none;
+  }
+}
