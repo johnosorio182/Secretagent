@@ -163,16 +163,50 @@ p {
   .main-banner {
     height: 15em;
   }
+
   .headline {
     top: 10em;
     width: 100%;
     padding: 1em 2em;
   }
+
   .headline h4 {
-    font-size: 0.77em;
+    font-size: 0.77rem;
 
   }
+
   .headline h1 {
-    font-size: 1em;
+    font-size: 1rem;
   }
+
+  .products {
+    flex-wrap: wrap;
+  }
+
+  .product {
+    width: 90%;
+    margin: auto;
+  }
+
+  .product.watch {
+    display: none;
+  }
+
+  .product.glasses {
+    display: none;
+  }
+
+  .business-info {
+    flex-wrap: wrap;
+  }
+
+  .info {
+    width: 90%;
+    margin: 0.5em auto;
+  }
+
+  footer {
+    text-align: center;
+  }
+
 }
