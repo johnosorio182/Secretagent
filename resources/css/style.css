@@ -157,3 +157,22 @@ p {
     display: none;
   }
 }
+
+@media only screen and (max-width:470px) {
+
+  .main-banner {
+    height: 15em;
+  }
+  .headline {
+    top: 10em;
+    width: 100%;
+    padding: 1em 2em;
+  }
+  .headline h4 {
+    font-size: 0.77em;
+
+  }
+  .headline h1 {
+    font-size: 1em;
+  }
+}
